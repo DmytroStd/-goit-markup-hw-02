@@ -1,0 +1,245 @@
+:root {
+    /* background */
+    --primary-bg-color: #FFFFFF;
+    --secondary-bg-color: #2F303A;
+    --accent-bg-color: #F5F4FA;
+    /* text */
+    --primary-text-color: #212121;
+    --secondaty-text-color: #757575;
+    --accent-color: #2196F3;
+    --hero-text-color: #FFFFFF;
+    --logo-header-color: #000000;
+    --logo-footer-color: #FFFFFF;
+}
+
+.page {
+    color: var(--primary-text-color);
+    background-color: var(--primary-bg-color);
+}
+
+/* Logo */
+.logo-header {
+    color: var(--logo-header-color);
+}
+
+.logo-footer {
+    color: var(--logo-footer-color);
+}
+
+.logo-blue {
+    color: var(--accent-color);
+}
+
+.list {
+    list-style: none;
+}
+
+/* site-nav */
+.site-nav .link {
+    color: var(--primary-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-cont .link {
+    color: var(--secondaty-text-color);
+}
+
+.site-cont .link:hover,
+.site-cont .link:focus {
+    color: var(--accent-color);
+}
+
+/* Hero */
+.hero-title {
+    color: var(--hero-text-color);
+}
+
+/* Section */
+.section-title {
+    color: var(--primary-text-color);
+}
+
+/* Feature */
+.feature .title {
+    color: var(--primary-text-color);
+}
+
+.feature .feature-text {
+    color: var(--secondaty-text-color);
+}
+
+
+
+/* Button */
+.btn {
+    color: var(--hero-text-color);
+    background-color: var(--accent-color);
+}
+
+/* Our team */
+.team .team-role {
+    color: var(--secondaty-text-color);
+}
+
+/* Footer */
+.footer {
+    background-color: var(--secondary-bg-color);
+}
+
+.footer-text .adress {
+    color: var(--hero-text-color);
+}
+
+.footer-item {
+    color: rgba(255, 255, 255, 0.6);
+    ;
+}
+
+.footer-item:hover,
+.footer-item:focus {
+    color: var(--accent-color);
+}
+
+
+
+/* текст */
+/* #212121 - цвет основного текста */
+/* #757575 - вторичный цвет */
+/* #FFFFFF - белый цвет теkста */
+/* #2196F3 - акцент (голубой) */
+/* фон */
+/* #FFFFFF - основной цвет фона */
+/* #2F303A - вторичный цвет фона */
+/* #F5F4FA - третий цвет фона */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* main {
+    background-color: #FFFFFF;
+}
+
+/* .header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+
+} */
+
+/* .nav,
+.header-contacts {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav>li,
+.header-contacts>li {
+    display: inline-block
+}
+
+.header .nav-list {
+    display: inline-block
+}
+
+.logo-header {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.nav .link {
+    color: #212121;
+}
+
+.header .link:hover,
+.header .link:focus {
+    color: #2196F3;
+}
+
+.header-contacts a {
+    color: #757575;
+
+}
+
+/* footer */
+/* .footer-info {
+    background-color: #2F303A;
+}
+
+.footer-list .link {
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+
+
+}
+
+.footer-list .link:hover,
+.footer-list .link:focus {
+    color: #2196F3;
+}
+
+.footer-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+} */
+
+
+/* .header-contacts .link:hover,
+.header-contacts .link:focus {
+    color: #2196F3;
+} */
+
+/* .title {
+    text-align: center;
+    background-color: #2F303A;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    ;
+
+}
+
+.title-btn {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    /* display: flex; */
+/* align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+background-color: #2196F3;
+}
+
+*/
