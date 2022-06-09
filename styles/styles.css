@@ -1,3 +1,13 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 :root {
     /* background */
     --primary-bg-color: #FFFFFF;
@@ -21,15 +31,33 @@
     color: var(--primary-text-color);
 
     list-style-type: none;
+    margin: 0;
+
+    outline: 2px solid red;
 }
 
 .list {
     list-style: none;
 }
 
+.container {
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+
+    outline: 2px solid red;
+}
+
 .hide-head,
 .section .hide-head {
-    color: var(--primary-bg-color);
+    display: none;
+}
+
+/* Page header */
+
+.page-header {
+    background-color: #ccc;
 }
 
 /* Logo */
@@ -109,11 +137,20 @@
 }
 
 /* Hero */
+
 .hero {
     background-color: var(--secondary-bg-color);
 }
 
+/* .conteiner {
+    margin-left: auto;
+    margin-right: auto;
+} */
+
 .hero-title {
+    margin-top: 0;
+    margin-bottom: 0;
+
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -133,7 +170,7 @@
     color: var(--primary-text-color);
 }
 
-/* Feature/Our team */
+/* Feature/Functions/Our team */
 .feature .title {
     font-weight: 700;
     font-size: 14px;
@@ -157,6 +194,16 @@
     text-transform: uppercase;
 }
 
+.box-features {
+
+    outline: 2px solid red;
+}
+
+.functions {
+    outline: 2px solid red;
+    background-color: aqua;
+}
+
 .team {
     background-color: var(--accent-bg-color);
 }
@@ -177,20 +224,24 @@
     color: var(--secondaty-text-color);
 }
 
-/* Button */
+/* Button main page*/
 .btn {
     color: var(--hero-text-color);
     background-color: var(--accent-color);
+    border-radius: 4px;
+    padding: 10px, 32px;
+    display: flex;
 
-    font-family: 'Roboto';
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1, 88;
-    display: flex;
+    line-height: 1.89;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+
+    margin: 0 auto;
 }
 
 .btn:hover,
@@ -225,8 +276,14 @@
 /* portfolio page */
 
 /* Buttons */
+.box {
+    list-style-type: none;
+    outline: 2px solid red;
+}
+
 .button {
-    font-family: 'Roboto';
+    font-family: Roboto, sans-serif;
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
@@ -234,10 +291,22 @@
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
 
-    background-color: var(--accent-bg-color);
+    padding: 6px 22px;
+
+    /* background-color: var(--accent-bg-color);  потом добавить*/
 }
 
+.box-button {
+    list-style-type: none;
+    /* delete later */
+    outline: 2px solid red;
+    background-color: aquamarine;
 
+}
+
+.button-list {
+    display: inline-block;
+}
 
 .filtr-btn button:hover,
 .filtr-btn button:focus {
@@ -246,6 +315,12 @@
 }
 
 /* Projects */
+.box-projects {
+    /* delete later */
+    outline: 2px solid red;
+    background-color: orange;
+}
+
 .projects .title {
     font-weight: 700;
     font-size: 18px;
